@@ -41,9 +41,10 @@ https://vueschool.io/lessons/installing-and-setting-up-vue-router-with-vite-vite
 
 
 ```
-mkdir frontend/plugins
-touch frontend/plugins/vee-validate.js
-touch frontend/plugins/axios.js
+# dentro da pasta frontend
+mkdir src/plugins
+touch src/plugins/vee-validate.js
+touch src/plugins/axios.js
 ```
 
 Ref: [alpinejs-tailwindcss-example](https://github.com/rg3915/alpinejs-tailwindcss-example)
@@ -64,7 +65,8 @@ npm i -g json-server
 Crie `db.json`
 
 ```
-touch db.json
+mkdir api
+touch api/db.json
 ```
 
 ```json
@@ -89,7 +91,7 @@ touch db.json
 Rode o json-server
 
 ```
-json-server --watch db.json
+json-server --watch api/db.json
 ```
 
 
