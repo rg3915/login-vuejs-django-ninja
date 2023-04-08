@@ -24,15 +24,21 @@ nvm use 18.3.0
 
 ```
 npm create vite@latest frontend -- --template vue
+cd frontend
+yarn
+
 # vue create frontend
 
-vue add router pinia vee-validate
+yarn add vue-router@4 --save
 yarn add axios
+vue add pinia vee-validate
 
-cd frontend
 yarn dev  # ou
 # npm run serve
 ```
+
+https://vueschool.io/lessons/installing-and-setting-up-vue-router-with-vite-vite-only
+
 
 ```
 mkdir frontend/plugins
