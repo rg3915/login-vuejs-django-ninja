@@ -131,7 +131,6 @@ Edite `package.json`
 ```json
 "scripts": {
   "build-css": "npx tailwindcss -i src/tailwind.css -o public/dist/tailwind.css --watch",
-  "build-js": "npx esbuild src/alpine.js --outfile=public/dist/alpine.js --bundle --watch",
   "build": "npx tailwindcss -i src/tailwind.css -o public/dist/tailwind.css; npx prettier --write public/",
   "lint": "npx prettier --write public/"
 }
