@@ -6,20 +6,23 @@
 yarn add tailwindcss
 ```
 
-### Instale o [TailwindCSS](https://tailwindcss.com/)
+### Instale o [TailwindCSS](https://tailwindcss.com/) com Vite
+
+[Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite#vue)
 
 ```
-npm init
 npm i -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
+
+Edite `tailwind.config.js`
 
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./public/**/*.html",
-    "./src/**/*.{js,ts,vue}"
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx,vue}"
   ],
   darkMode: 'class',
   theme: {
@@ -30,7 +33,7 @@ module.exports = {
 ```
 
 ```
-touch src/tailwind.css
+touch src/style.css
 ```
 
 ```css

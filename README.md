@@ -23,13 +23,21 @@ nvm use 18.3.0
 ### Criando o projeto
 
 ```
-vue create frontend
+npm create vite@latest frontend -- --template vue
+# vue create frontend
 
-vue add router
+vue add router pinia vee-validate
+yarn add axios
 
 cd frontend
 yarn dev  # ou
 # npm run serve
+```
+
+```
+mkdir frontend/plugins
+touch frontend/plugins/vee-validate.js
+touch frontend/plugins/axios.js
 ```
 
 Ref: [alpinejs-tailwindcss-example](https://github.com/rg3915/alpinejs-tailwindcss-example)
