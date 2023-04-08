@@ -7,15 +7,75 @@ Sistema de Login entre VueJS e Django-Ninja
 * Template: [Windmill](https://windmillui.com/dashboard-html)
 * Github: [windmill-dashboard](https://github.com/estevanmaito/windmill-dashboard)
 
-### Criando o projeto
+### Instalação
 
 ```
 npm install -g @vue/cli
+```
 
+#### Use [node](https://nodejs.org/en/) com [nvm](https://github.com/nvm-sh/nvm).
+
+```
+nvm use 18.3.0
+```
+
+
+### Criando o projeto
+
+```
 vue create frontend
+
+vue add router
+
 cd frontend
 yarn dev  # ou
 # npm run serve
+```
+
+Ref: [alpinejs-tailwindcss-example](https://github.com/rg3915/alpinejs-tailwindcss-example)
+
+![](https://camo.githubusercontent.com/433b9e46931996dab58a0231b202aad43e24ce6bd7c7f04c1e32fb88b1b43b61/68747470733a2f2f77696e646d696c6c75692e636f6d2f696d672f44617368626f6172642e706e67)
+
+### Instalando TailwindCSS
+
+[Leia mais](install_tailwind.md)
+
+
+## Dados com [json-server](https://www.npmjs.com/package/json-server) (Opcional)
+
+```
+npm i -g json-server
+```
+
+Crie `db.json`
+
+```
+touch db.json
+```
+
+```json
+{
+  "todos": [
+    {
+      "id": 1,
+      "task": "One"
+    },
+    {
+      "id": 2,
+      "task": "Two"
+    },
+    {
+      "id": 3,
+      "task": "Three"
+    }
+  ]
+}
+```
+
+Rode o json-server
+
+```
+json-server --watch db.json
 ```
 
 
