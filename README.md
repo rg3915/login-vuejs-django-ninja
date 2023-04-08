@@ -111,11 +111,10 @@ python -m venv .venv
 source ./venv/bin/activate  # ou
 # .venv\Scripts\activate  # Windows
 
-pip install django-ninja-auth
+pip install django-ninja-auth python-decouple django-extensions isort autopep8
 
 django-admin startproject backend .
 cd backend/
-python ../manage.py startapp core
 ```
 
 ### Autenticação
@@ -136,7 +135,6 @@ from django.urls import path
 
 from .api import api
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', api.urls),
@@ -153,6 +151,19 @@ from ninja_auth.api import router as auth_router
 api = NinjaAPI(csrf=True)
 
 api.add_router('/auth/', auth_router)
+```
+
+Rode as migrações e crie um super usuário.
+
+```
+python manage.py migrate
+python manage.py createsuperuser
+```
+
+Rode a aplicação.
+
+```
+python manage.py runserver
 ```
 
 Acesse a doc em `/api/v1/docs/`
