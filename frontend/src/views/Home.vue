@@ -16,12 +16,12 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import axios from 'axios'
+import axios from '../plugins/axios'
 
 const todos = ref([])
 
 onMounted(async () => {
-  axios.get('http://localhost:8000/todos')
+  this.$axios.get('about/')
     .then((response) => {
       todos.value = response.data
     })
