@@ -21,7 +21,7 @@ import axios from '@/plugins/axios.js'
 const todos = ref([])
 
 onMounted(async () => {
-  axios.get('about/')
+  axios.get('todo/')
     .then((response) => {
       todos.value = response.data
     })
