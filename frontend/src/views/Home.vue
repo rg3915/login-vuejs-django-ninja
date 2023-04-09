@@ -16,7 +16,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import axios from '../plugins/axios.js'
+import axios from '@/plugins/axios.js'
 
 const todos = ref([])
 
