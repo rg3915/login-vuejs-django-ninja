@@ -7,7 +7,7 @@ Sistema de Login entre VueJS e Django-Ninja
 * Template: [Windmill](https://windmillui.com/dashboard-html)
 * Github: [windmill-dashboard](https://github.com/estevanmaito/windmill-dashboard)
 
-![](img/login.png)
+![](img/login2.png)
 ![](img/register.png)
 ![](img/forgot-password.png)
 
