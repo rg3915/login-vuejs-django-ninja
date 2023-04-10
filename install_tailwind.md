@@ -123,26 +123,10 @@ https://github.com/estevanmaito/tailwindcss-multi-theme#tailwind-css-multi-theme
 npm install tailwindcss-multi-theme
 ```
 
-### Instalando esbuild
-
-```
-npm i esbuild
-```
-
-Edite `package.json`
-
-```json
-"scripts": {
-  "build-css": "npx tailwindcss -i src/tailwind.css -o public/dist/tailwind.css --watch",
-  "build": "npx tailwindcss -i src/tailwind.css -o public/dist/tailwind.css; npx prettier --write public/",
-  "lint": "npx prettier --write public/"
-}
-```
-
 ### [Prettier](https://prettier.io/) (Opcional)
 
 ```
-npm install --save-dev --save-exact prettier
+yarn add --save-dev --save-exact prettier
 ```
 
 ```
@@ -162,5 +146,5 @@ EOF
 ```
 npx prettier --write public/
 ou
-npm run lint
+yarn run lint
 ```
