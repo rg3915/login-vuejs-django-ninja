@@ -77,8 +77,8 @@ module.exports = {
 ### Instalando forms
 
 ```
-# yarn add @tailwindcss/forms
-yarn add @tailwindcss/custom-forms -D
+yarn add @tailwindcss/forms -D
+# yarn add @tailwindcss/custom-forms -D
 ```
 
 ```js
