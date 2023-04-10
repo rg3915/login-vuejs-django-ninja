@@ -45,7 +45,7 @@ touch src/style.css
 ### Instalando plugins e fontes
 
 ```
-npm install -D @tailwindcss/typography
+yarn add -D @tailwindcss/typography
 ```
 
 [Poppings](https://blog.logrocket.com/how-to-use-custom-fonts-tailwind-css)
@@ -77,7 +77,8 @@ module.exports = {
 ### Instalando forms
 
 ```
-npm i -D @tailwindcss/forms
+# yarn add @tailwindcss/forms
+yarn add @tailwindcss/custom-forms -D
 ```
 
 ```js
@@ -87,7 +88,8 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('@tailwindcss/forms'),
+    // require('@tailwindcss/forms'),
+    require('@tailwindcss/custom-forms'),
     // ...
   ],
 }
@@ -96,7 +98,7 @@ module.exports = {
 ### Instalando aspect-ratio
 
 ```
-npm i -D @tailwindcss/aspect-ratio
+yarn add @tailwindcss/aspect-ratio
 ```
 
 ```js
@@ -120,7 +122,7 @@ module.exports = {
 https://github.com/estevanmaito/tailwindcss-multi-theme#tailwind-css-multi-theme
 
 ```
-npm install tailwindcss-multi-theme
+yarn add tailwindcss-multi-theme
 ```
 
 ### [Prettier](https://prettier.io/) (Opcional)
