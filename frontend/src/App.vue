@@ -3,13 +3,13 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <nav v-if="$route.path !== '/login'">
+  <nav v-if="$route.path !== '/login' && $route.path !== '/register'">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/login">Login</router-link>
   </nav>
   <router-view></router-view>
-  <div>
+  <div v-if="$route.path !== '/login' && $route.path !== '/register'">
     <a
       href="https://vitejs.dev"
       target="_blank"
@@ -30,9 +30,9 @@ import HelloWorld from './components/HelloWorld.vue'
         alt="Vue logo"
       />
     </a>
-  </div>
   <HelloWorld msg="Vite + Vue" />
   <p class="text-red-500">TailwindCSS</p>
+  </div>
 </template>
 
 <style scoped>

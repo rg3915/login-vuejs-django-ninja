@@ -78,7 +78,6 @@ module.exports = {
 
 ```
 yarn add @tailwindcss/forms -D
-# yarn add @tailwindcss/custom-forms -D
 ```
 
 ```js
@@ -88,8 +87,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    // require('@tailwindcss/forms'),
-    require('@tailwindcss/custom-forms'),
+    require('@tailwindcss/forms'),
     // ...
   ],
 }

@@ -56,12 +56,10 @@
               </a>
             </p>
             <p class="mt-1">
-              <a
+              <router-link
+                :to="{ name: 'Register' }"
                 class="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline"
-                href="./create-account.html"
-              >
-                Cadastre-se
-              </a>
+              >Cadastre-se</router-link>
             </p>
           </div>
         </div>
