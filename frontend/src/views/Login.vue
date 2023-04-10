@@ -25,7 +25,7 @@
               <span class="text-gray-700 dark:text-gray-400">E-mail</span>
               <input
                 class="block w-full mt-1 text-sm rounded border-gray-200 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
-                placeholder="Jane Doe"
+                placeholder="jane-doe@example.com"
               />
             </label>
             <label class="block mt-4 text-sm">
@@ -48,12 +48,10 @@
             <hr class="my-8" />
 
             <p class="mt-4">
-              <a
+              <router-link
+                :to="{ name: 'ForgotPassword' }"
                 class="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline"
-                href="./forgot-password.html"
-              >
-                Esqueceu a senha?
-              </a>
+              >Esqueceu a senha?</router-link>
             </p>
             <p class="mt-1">
               <router-link

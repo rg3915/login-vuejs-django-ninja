@@ -3,13 +3,13 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <nav v-if="$route.path !== '/login' && $route.path !== '/register'">
+  <nav v-if="$route.path !== '/login' && $route.path !== '/register' && $route.path !== '/forgot-password'">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/login">Login</router-link>
   </nav>
   <router-view></router-view>
-  <div v-if="$route.path !== '/login' && $route.path !== '/register'">
+  <div v-if="$route.path !== '/login' && $route.path !== '/register' && $route.path !== '/forgot-password'">
     <a
       href="https://vitejs.dev"
       target="_blank"
