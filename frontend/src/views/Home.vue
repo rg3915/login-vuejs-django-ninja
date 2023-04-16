@@ -3,7 +3,10 @@
     <h1>Home</h1>
     <table>
       <tbody>
-        <template v-for="todo in todos" :key="todo.id">
+        <template
+          v-for="todo in todos"
+          :key="todo.id"
+        >
           <tr>
             <td>{{ todo.id }}</td>
             <td>{{ todo.task }}</td>
