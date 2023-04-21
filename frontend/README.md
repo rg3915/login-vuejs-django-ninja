@@ -1,7 +1,36 @@
-# Vue 3 + Vite
+# windmill-dashboard-vue3
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a Vue 3 clone of [@estevanmaito](https://github.com/estevanmaito)'s [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard).
 
-## Recommended IDE Setup
+![](/public/cover.png)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Pages
+
+- Index
+- Buttons
+- Cards 
+- Tables
+- Charts [Coming Soon]  
+- Forms [Coming Soon]  
+- Modals [Coming Soon]  
+
+## Components
+
+- Button
+- Card
+- Loader
+- Sidebar
+- Navigation
+- Call To Action
+- TableRow
+- Modal [Coming Soon]
+
+## Live Versions
+
+Vue 3.0 [Live Version](https://windmill.bydiamond.co.uk)  
+
+Estavan's [Live Version](https://windmillui.com/dashboard-html)  
+
+## Credit
+
+All credit goes to Estevan Maito for building the original Dashboard, I simply ported across to Vue 😀
