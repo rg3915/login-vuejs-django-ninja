@@ -4,7 +4,7 @@ Sistema de Login entre VueJS e Django-Ninja
 
 ## Frontend
 
-* Template: [Windmill](https://windmillui.com/dashboard-html)
+* Template: [windmill-dashboard-vue3](https://github.com/ByDiamondHQ/windmill-dashboard-vue3)
 * Github: [windmill-dashboard](https://github.com/estevanmaito/windmill-dashboard)
 
 ![](img/login2.png)
