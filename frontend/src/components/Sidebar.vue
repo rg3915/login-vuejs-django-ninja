@@ -42,11 +42,11 @@
                 class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium text-gray-500 rounded-md shadow-inner bg-gray-50 dark:text-gray-400 dark:bg-gray-900"
                 aria-label="submenu">
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                  <router-link class="w-full" to="/login">Login</router-link>
+                  <router-link class="w-full" to="login">Login</router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                  <router-link class="w-full" to="/">
-                    Create account
+                  <router-link class="w-full" to="register">
+                    Cadastre-se
                   </router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
@@ -126,11 +126,11 @@
                 class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium text-gray-500 rounded-md shadow-inner bg-gray-50 dark:text-gray-400 dark:bg-gray-900"
                 aria-label="submenu">
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                  <router-link class="w-full" to="pages/login.html">Login</router-link>
+                  <router-link class="w-full" to="login">Login</router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                  <router-link class="w-full" to="pages/create-account.html">
-                    Create account
+                  <router-link class="w-full" to="register">
+                    Cadastre-se
                   </router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">

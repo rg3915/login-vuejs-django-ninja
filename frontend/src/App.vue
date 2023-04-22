@@ -23,6 +23,6 @@ import {useRoute} from 'vue-router'
 const route = useRoute()
 const currentRoute = computed(() => route.path)
 
-const showSidebar = computed(() => currentRoute.value !== '/login')
-const showNavigation = computed(() => currentRoute.value !== '/login')
+const showSidebar = computed(() => currentRoute.value !== '/login' && currentRoute.value !== '/register')
+const showNavigation = computed(() => currentRoute.value !== '/login' && currentRoute.value !== '/register')
 </script>
