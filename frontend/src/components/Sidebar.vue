@@ -50,8 +50,8 @@
                   </router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                  <router-link class="w-full" to="/">
-                    Forgot password
+                  <router-link class="w-full" to="forgot-password">
+                    Esqueci a senha
                   </router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
@@ -134,8 +134,8 @@
                   </router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                  <router-link class="w-full" to="pages/forgot-password.html">
-                    Forgot password
+                  <router-link class="w-full" to="forgot-password">
+                    Esqueci a senha
                   </router-link>
                 </li>
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
